@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-image: url('husky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  padding-right: 10px;
+}
+
+input:hover {
+  outline: none;
+  border: 1px solid blue;
+}
+
+#age {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#age, #ok {
+  border-radius: 10px;
+}
